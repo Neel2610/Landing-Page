@@ -1,3 +1,13 @@
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -50,4 +60,89 @@ body{
     display: flex;
     flex-direction: column;
     flex: auto;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 48px;
+    gap: 45px;
+}
+
+.hero img{
+    height: 200px;
+    width: 450px;
+    background-color: #465468;
+}
+
+.hero .hero-text{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 450px;
+}
+
+.hero .main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero .second-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button{
+    background-color: #3882f6;
+    flex: none;
+    padding: 8px 25px;
+    border: #1f2937;
+    width: fit-content;
+    border-radius: 10%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.information-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.information .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-wrap: wrap;
+}
+
+.information .box{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882f6;
+    border-radius: 20%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    text-align: center;
 }
