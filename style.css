@@ -163,3 +163,39 @@ div .quote{
 .quote .text{
     width: 60vw;
 }
+
+.template{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.template .box{
+    width: 70vw;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    padding: 26px;
+}
+
+.template .head{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.template .subtext{
+    font-size: 18px;
+}
+
+.template button{
+    background-color: #3882f6;
+    flex: none;
+    padding: 8px 25px;
+    border: 2px solid #e5e7eb;
+    width: fit-content;
+    border-radius: 10%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
