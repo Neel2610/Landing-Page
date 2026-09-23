@@ -146,3 +146,20 @@ body{
     width: 230px;
     text-align: center;
 }
+
+div .quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 48px;
+}
+
+.quote .text{
+    width: 60vw;
+}
